@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой виш-лист проектов</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #4a5568;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+        .project-item {
+            background: #f8f9fa;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+        .project-item:hover {
+            transform: translateX(10px);
+            background: #e9ecef;
+        }
+        .project-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+        .project-description {
+            color: #4a5568;
+            margin-bottom: 8px;
+        }
+        .project-tech {
+            color: #667eea;
+            font-size: 0.9em;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #718096;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Мой виш-лист проектов</h1>
+        
+        <ul class="project-list">
+            <li class="project-item">
+                <div class="project-title">🤖 Бот для рецептов</div>
+                <div class="project-description">автоматический сбор и предоставление рецептов</div>
+                <div class="project-tech">Технологии: Python, Telegram API, Pandas, Machine Learning</div>
+            </li>
+            
+            <li class="project-item">
+                <div class="project-title">🎬 Система рекомендаций фильмов</div>
+                <div class="project-description">-</div>
+                <div class="project-tech">Технологии: Python, Scikit-learn, Flask, PostgreSQL</div>
+            </li>
+            
+            <li class="project-item">
+                <div class="project-title">🌐 Список дел и покупок</div>
+                <div class="project-description">Составление, пополнение и выполнение списка дел</div>
+                <div class="project-tech">Технологии: BeautifulSoup, NLTK, FastAPI, MongoDB</div>
+            </li>
+            
+            <li class="project-item">
+                <div class="project-title">🎮 Мини-игра в терминале</div>
+                <div class="project-description">Классическая аркадная игра с псевдографикой в командной строке</div>
+                <div class="project-tech">Технологии: Python, Curses, Object-Oriented Programming</div>
+            </li>
+        </ul>
+        
+        <div class="footer">
+            Создано с ❤️ для развития навыков программирования
+        </div>
+    </div>
+</body>
+</html>
